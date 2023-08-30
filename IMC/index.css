@@ -1,0 +1,49 @@
+h1,h2{
+    color: #d4d4d2;
+}
+h1{
+    margin-block-start: 0cm;
+    color: white;
+}
+
+.input_area{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input{
+    height: 1.5em;
+}
+
+textarea{
+    width: 100%;
+    margin-top: 2em;
+}
+
+.area{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-color: #1c1c1c;
+    display: inline-flex; /*ocupa somente o espaço daquilo que está escrito*/
+    padding: 1em; /*expessura da borda*/
+    border-radius: 1em; /*arredonda a borda*/
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    height: 3em;
+    width: 100%;
+    background-color: #FF9500;
+    border: none;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+}
